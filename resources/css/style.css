@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  margin: 0;
+  background-color: lightgrey;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+
+nav a {
+  text-decoration: none;
+  color: dimgrey;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+a.logo {
+  margin: auto 0;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  color: grey;
+  display: flex;
+  align-items: center;
+}
+
+.logo span {
+  color: black;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  column-gap: 16px;
+}
