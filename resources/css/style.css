@@ -6,6 +6,10 @@ body {
   border: solid dimgrey 1px;
 }
 
+h1 {
+  text-align: center;
+}
+
 /* Navigation Section */
 nav {
   background-color: white;
@@ -64,6 +68,10 @@ img {
   align-items: center;
 }
 
+h1.banner {
+  text-align: left;
+}
+
 .left-container {
   width: 60%;
   padding: 32px 24px;
@@ -95,6 +103,7 @@ img {
 }
 
 .left-container h1 {
+  text-align: left;
   padding: 32px 0 24px;
 }
 
@@ -115,26 +124,22 @@ img {
   height: auto;
 }
 
-.top, .middle {
+.small-box {
   padding: 16px;
   display: flex;
   align-items: center;
-  column-gap: 20px;
+  column-gap: 16px;
 }
 
-.bottom {
+.background {
   background-color: lightgrey;
-  padding: 16px;
-  display: flex;
-  align-items: center;
-  column-gap: 20px;
 }
 
 .small-content {
   width: 65%;
 }
 
-.small-content h3, .small-content p{
+.small-content p, .small-content h3 {
   padding: 4px 0;
 }
 
@@ -146,10 +151,6 @@ hr {
 .online-section {
   background-color: lightgrey;
   padding: 32px 72px;
-}
-
-.online-section h1 {
-  text-align: center;
 }
 
 .tiles-container {
@@ -169,7 +170,7 @@ hr {
 .tile {
   display: flex;
   flex-direction: column;
-  flex: 1 1 25%;
+  flex: 1 1 30%;
 }
 
 .tile-content {
@@ -178,4 +179,26 @@ hr {
 
 .courses {
   padding: 8px 0;
+}
+
+/* Companies Section */
+.companies-section {
+  padding: 32px 0;
+}
+
+.companies-container {
+  display: flex;
+}
+
+video {
+  max-width: 100%;
+}
+
+.left-container h3 {
+  padding: 24px 0 8px 0;
+}
+
+.companies-container .right-container {
+  padding-top: 32px;
+  border: none;
 }
