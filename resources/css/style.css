@@ -183,7 +183,7 @@ hr {
 
 /* Companies Section */
 .companies-section {
-  padding: 32px 0;
+  padding-top: 32px;
 }
 
 .companies-container {
@@ -201,4 +201,18 @@ video {
 .companies-container .right-container {
   padding-top: 32px;
   border: none;
+}
+
+/* Footer */
+footer {
+  padding: 16px 24px;
+  border-top: solid 1px lightgrey;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.terms {
+  margin: 0 16px 0 auto;
 }
